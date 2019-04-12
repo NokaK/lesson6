@@ -1,0 +1,33 @@
+.carousel-item {
+	background-image: url(https://imgcomfort.com/Userfiles/Upload/images/illustration-geiranger.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.box{
+	height: 300px;
+	width: 300px;
+	background-color: aqua;
+}
+i{
+	color: red;
+	font-size: 50px;
+	transition:all 0.5s linear; 
+}
+i:hover{
+	color: green;
+	font-size: 70px;
+}
+@media (max-width: 1024px){
+	.carousel-item {
+		background-position: left;
+	}
+}
+@media (max-width: 480px){
+	.carousel-item {
+		background-position: right;
+		background-image: url(https://helpx.adobe.com/in/stock/how-to/visual-reverse-image-search/_jcr_content/main-pars/image.img.jpg/visual-reverse-image-search-v2_1000x560.jpg);
+	}
+}
